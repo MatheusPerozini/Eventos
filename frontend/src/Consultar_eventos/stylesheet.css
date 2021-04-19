@@ -1,0 +1,166 @@
+.consulta h3{
+    color: white;
+}
+    #menu a{
+    position: relative;
+    z-index: 2;
+    padding-right: 30px;
+    padding-left: 50px;
+    display: block;
+    padding-bottom: 30px;
+    float: top;
+    color: white;
+    }
+    #menu{
+    background-size: 100px , 900px;
+    background-color: #110F26;
+    position: absolute;
+    border: #241e52;
+    border-width: 3px;
+    border-style: solid;
+    z-index: 4;
+    height: 680px;
+    float: top;
+    transition-timing-function: ease-out;
+    transition: transform 0.5s;
+    }
+   .consulta #menu :nth-child(2){
+        top: 0px;
+        }
+     .consulta   #menu :nth-child(6){
+        padding-top: 0px;
+        } 
+    .consulta p {
+        text-decoration: none;
+        color: white;
+    }
+.consulta h1{
+    font-size: 25px;
+    opacity: 95%;
+    color: white;
+    text-align:center;
+    position: relative;
+    padding-top: 40px;
+    background-color: #CF6D25;
+    position: relative;
+    position : relative;
+    margin : auto;
+    height: 80px;
+}
+.consulta #barrinha {
+        filter: brightness(95%);
+        background-color: #CF6D25;;
+        top: 25px;
+        position: absolute;
+        left: 50px;
+        width: 100px;
+        opacity: 95%;
+        border-style: none;
+}
+.consulta #barrinha_dentro {
+    background-color: #110F26;
+        z-index: 4;
+        bottom: 650px;
+        margin-top: 0%;
+        padding-top: 0%;
+        position: absolute;
+        left: 50px;
+        width: 100px;
+        opacity: 95%;
+        height: 1px;
+}
+.consulta button{
+    background-color:#110F26 ;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    width: 300px;
+    height: 50px;
+    position: relative;
+    display: inline-block;
+    color: white;
+}
+.consulta form.example button {
+    width: 7%;
+    height: 55px;
+    position: absolute;
+    padding: 10px;
+    float: right;
+    right: 8px;
+    bottom: 426px;
+    background: #CF6D25;
+    color: white;
+    font-size: 17px;
+    border: 1px solid #CF6D25;
+    border-left: none; /* Prevent double borders */
+    cursor: pointer;
+  }
+
+.consulta form.example input[type=text] {
+    padding: 10px;
+    height: 28px;
+    float: right;
+    right: 50px;
+    top: 128px;
+    position: absolute;
+    font-size: 17px;
+    border: 1px solid rgb(255, 255, 255);
+    float: top;
+    width: 600px;
+    background: #110F26;
+    color: white;
+  }
+
+.consulta form.example button:hover {
+    background: #aa5920;
+  }
+  .consulta form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+::placeholder{
+    color: white;
+}
+.eventos_consultar{
+    display: block;
+    position: relative;
+    width: 90%;
+    height: 150px;
+    background-color: red;
+    border-radius: 40px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+.consulta .eventos_consultar h3{
+    position: absolute;
+    top: 45px;
+    left: 30px;    
+}
+.consulta .eventos_consultar :nth-child(2) {
+    position: absolute;
+    right : 500px;
+}
+.consulta .eventos_consultar :nth-child(3){
+    position: absolute;
+    right: 440px;
+}
+.consulta .eventos_consultar :nth-child(4){
+    position: absolute;
+    right: 435px;
+    top: 45px;
+}
+.consulta .eventos_consultar :nth-child(5){
+    position: absolute;
+    right: 490px;
+    top: 90px;
+}
+.consulta .eventos_consultar button{
+    position: absolute;
+    right: -35px;
+    height: 150px;
+    bottom: 0px;
+    border-radius: 100000px;
+}

@@ -1,0 +1,85 @@
+.register body {
+    background-color: #110F26;
+}
+.register button{
+    border-radius: 25px;
+    position: relative;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+    background-color: #CF6D25;
+    float: right;
+    top: 100px;
+    padding-top: 30px;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom: 30px;
+    border: none;
+}
+::placeholder{
+    color: white;
+}
+
+.register input{
+    outline: 0;
+    color: white;
+    border-color: white;
+    background-color: #110F26;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.register h1 {
+    opacity: 95%;
+    color: white;
+    background-color: #CF6D25;
+    text-align: center;
+    position: relative;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+    position : relative;
+    margin : auto;
+}
+
+.register button {
+    outline: 0;
+}
+
+.register a{
+    color: white;
+}
+
+
+.register form :nth-child(4){
+    position: relative;
+    right: 35px;
+}
+.mudartexto::-webkit-input-placeholder {
+    color: red;
+ }
+.dados {
+    opacity: 90%;
+    color: white;
+    top: 100px;
+    display: block;
+    position : relative ;
+    text-align: center;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+.dados p{
+    display: block;
+}
+
+.dados input{
+    height: 30px;
+    float: top;
+    width: 350px;
+    margin-bottom: 20px;
+}

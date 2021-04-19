@@ -1,0 +1,40 @@
+//ta atualizado
+login --ok
+cadastro --ok
+adicionar eventos --ok
+excluir eventos --ok
+editar eventos
+editar o usuario
+privacidade do evento
+listar eventos(tanto no histórico , como no calendario)
+(liste por matematica , se no array
+achar o primeiro dia após tal numero
+então pinta a proxima semana que faltou)
+quem vai na festa(foi criado pelo boolean)
+no item ele vai salvar no banco de dados
+nomedoitemX1 , e pra mostrar no front ele 
+vai procurar onde está o ultimo X e o 
+numero depois dele , então ele vai
+aparacer la a o X e a quantidade
+--------------
+fazer botão para apagar o evento(ai bota,
+o o hancledeletear no onclick pora)
+fazer tela para listar os usuario para chamar
+fazer tela para visuzalizar evento e tals
+botão de editar evento ,até o dia do evento
+depois o botão some
+----------------
+SE DER ALGUM ERRO É PQ PODE TA RETORNANDO
+TIPO ARRAY E TEM Q BOTAR [0]
+----------------------
+falta fazer o sistema de notificação
+----------------------
+celebrate e deps acaba e deus na causa
+----------------------------
+fazer o storage do ongId para poder
+colocar no headers assim : 
+api.get('local' , {
+headers : {
+	authorization : evento_id
+}
+})
